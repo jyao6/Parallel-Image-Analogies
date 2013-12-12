@@ -1,0 +1,53 @@
+#!/bin/bash
+##############################################################
+# Submission options for use with SGE batch-queueing systems.
+#
+# This script shall be run on a SGE cluster headnode with
+#  qsub <script_name>
+# to enqueue the specified job.
+#
+# Note: Commented commands (i.e. #$ ...) are intentional!
+# Do not "uncomment", qsub will use these as configurations.
+##############################################################
+#
+# Job name
+#$ -N cs205
+#
+# Join stdout and stderr
+#$ -j y
+#
+# Use current working directory
+#$ -cwd
+#
+# Run job through bash shell
+#$ -S /bin/bash
+#
+# Submission queue.
+#$ -q gpubatch.q
+#
+# Parallel environment and number of processes.
+#$ -pe ortegpu_reserve 2
+#
+##############################################################
+# Import environment variables, libraries, and profile
+##############################################################
+# Harvard cluster specific software
+source /etc/profile
+module load courses/cs205/2013
+#
+##############################################################
+# Extra information for the header of the output file.
+##############################################################
+date
+pwd
+echo "****************************************"
+##############################################################
+# Full command of the job
+##############################################################
+mpiexec -n 4 --mca btl_tcp_if_include ib0 python image_analogies_parallel.py artistic1_A1.jpg artistic1_A2.jpg fun.jpg fun_2.jpg
+#
+##############################################################
+# Extra information for the footer of the output file
+##############################################################
+echo "*****************************************"
+date
