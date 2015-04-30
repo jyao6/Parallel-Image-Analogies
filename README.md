@@ -1,6 +1,6 @@
 # Parallel-Image-Analogies
 
-# Windows Instructions
+### Windows Instructions
 ### Compatible with Python 2.7.
 ### Dependencies
 #### Install Microsoft Visual Studio C++ Compiler for python in order to get numpy
