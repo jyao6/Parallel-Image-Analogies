@@ -12,11 +12,16 @@ Install the following dependencies using the command pip (remember to run as adm
 	pip install numpy matplotlib
 	
 Note that numpy will take a while since it will use the C++ compiler.
-#### Get a copy of the OpenCV and Scipy here and use pip install on the whl files (check if you are getting the right version)
+#### OpenCV and Scipy
+##### Get a copy of the OpenCV here and use pip install on the whl file (check if you are getting the right version)
 
 	http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
 
-##### Originally code for CS205 Final Project
+##### Get a copy of the official Scipy binaries here
+	
+	http://www.scipy.org/scipylib/download.html
+
+#### Originally code for CS205 Final Project
 
 This repository includes code for both the serial and parallel implementations of the Image Analogy algorithm described in the research paper "Image Analogies" by Hertzmann, et al. (http://sites.fas.harvard.edu/~cs278/papers/analogies-72dpi.pdf).
 
