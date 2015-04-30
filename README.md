@@ -4,11 +4,16 @@
 ### Compatible with Python 2.7.
 ### Dependencies
 #### Install Microsoft Visual Studio C++ Compiler for python in order to get numpy
+
 	http://www.microsoft.com/en-us/download/details.aspx?id=44266
+	
 Install the following dependencies using the command pip (remember to run as admin)
+
 	pip install numpy matplotlib
+	
 Note that numpy will take a while since it will use the C++ compiler.
 #### Get a copy of the OpenCV and Scipy here and use pip install on the whl files (check if you are getting the right version)
+
 	http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
 
 ##### Originally code for CS205 Final Project
