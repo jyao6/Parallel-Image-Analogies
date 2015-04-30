@@ -1,13 +1,13 @@
 # Parallel-Image-Analogies
 
 # Windows Instructions
-## Parallel Image Analogies only runs on Python 2.7 for now due to print compatibilities. TODO: fix it.
-## Install the following dependencies using the command pip (remember to run as admin)
+### Parallel Image Analogies only runs on Python 2.7 for now due to print compatibilities. TODO: fix it.
+### Install the following dependencies using the command pip (remember to run as admin)
 	pip install numpy matplotlib
 Note that numpy will take a while since it will use the C++ compiler.
-### Install Microsoft Visual Studio C++ Compiler for python in order to use numpy
+#### Install Microsoft Visual Studio C++ Compiler for python in order to use numpy
 	http://www.microsoft.com/en-us/download/details.aspx?id=44266
-## Get a copy of the OpenCV and Scipy here and use pip install on the whl files (check if you are getting the right version)
+### Get a copy of the OpenCV and Scipy here and use pip install on the whl files (check if you are getting the right version)
 	http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
 
 #Code for CS205 Final Project
