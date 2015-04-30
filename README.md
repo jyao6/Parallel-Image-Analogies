@@ -19,7 +19,7 @@ It includes the following files:
 
 * image_analogies_serial.py 
 
-This is the serial implementation, which can be run with the following line:
+This is the serial implementation, which can be run with the following line where imageA is your original image, ImageAPrime is your final image A, image B is the image that you will process and output file is the name of the processed B file that you will save.
 
 	python image_analogies_serial.py [imageA_path] [imageA_prime_path] [imageB_path] [output_file]
 
