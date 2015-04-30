@@ -1,7 +1,7 @@
 # Parallel-Image-Analogies
 
 # Windows Instructions
-### Parallel Image Analogies only runs on Python 2.7 for now due to print compatibilities. TODO: fix it.
+### Compatible with Python 2.7.
 ### Install the following dependencies using the command pip (remember to run as admin)
 	pip install numpy matplotlib
 Note that numpy will take a while since it will use the C++ compiler.
